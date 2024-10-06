@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="24dp"
+    android:layout_marginRight="6dp"
+    android:background="@drawable/sunrise_blue_student"
+    app:cardBackgroundColor="#00000000"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false">
+
+    <RelativeLayout
+        android:id="@+id/sitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sunrise_blue_student"
+        android:paddingLeft="36dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/roll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="56dp"
+                android:text="Ashish"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="36dp"
+                android:text="P"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="96dp">-->
+
+    <!--    <LinearLayout-->
+    <!--        android:padding="16dp"-->
+    <!--        android:layout_centerVertical="true"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content">-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/name"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="David Dunn"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="#000000"-->
+    <!--            />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/roll"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="01"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="#000000"-->
+    <!--            />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/status"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="P"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="#000000"-->
+    <!--            />-->
+    <!--    </LinearLayout>-->
+
+    <!--</RelativeLayout>-->
+
+
+
+
+<!--Sample Code-->
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/roll"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Roll Number" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Student Name" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/status"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Status" />-->
+
+<!--</LinearLayout>-->

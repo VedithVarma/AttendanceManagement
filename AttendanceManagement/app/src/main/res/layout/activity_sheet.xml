@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sunrise_blue"
+    tools:context=".SheetActivity">
+
+<include
+layout="@layout/toolbar"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonExportExcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Excel Export"
+        android:padding="10dp"
+        android:background="@drawable/present_gradient"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:layout_margin="16dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send via ..."
+        android:padding="10dp"
+        android:background="@drawable/darkblue_gradient_button"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:layout_margin="16dp"/>
+
+<ScrollView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:scrollbars="none">
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle|end"
+            android:stretchColumns="*"/>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+
+</ScrollView>
+
+    </LinearLayout>
